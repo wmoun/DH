@@ -5,8 +5,8 @@ import { CommandType } from "../../command";
  * @author yupi
  */
 const douyinCommand: CommandType = {
-  func: "douyin",
-  name: "抖音搜索",
+  func: "chain",
+  name: "查询区块、合约链上相关数据",
   alias: [],
   params: [
     {
@@ -27,7 +27,7 @@ const douyinCommand: CommandType = {
   action(options, terminal) {
     const { _, self } = options;
     const word = _.length > 0 ? _[0] : "";
-    const targetLink = `https://www.douyin.com/search/${word}`;
+    const targetLink = `https://blockchair.com/zh/search?q=${word}`;
     if (self) {
       window.location.href = targetLink;
     } else {
