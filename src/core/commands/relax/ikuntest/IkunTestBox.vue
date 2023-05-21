@@ -1,6 +1,6 @@
 <template>
   <div class="ikun-test-box" style="margin: 8px 0">
-    <iframe src="https://www.notion.so/" />
+    <iframe src="https://coinmarketcap.com/zh/best-cryptos/" />
   </div>
 </template>
 

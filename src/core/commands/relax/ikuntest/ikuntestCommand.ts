@@ -5,10 +5,10 @@ import ComponentOutputType = YuTerminal.ComponentOutputType;
 /**
 
  */
-const noCommand: CommandType = {
-  func: "no",
-  name: "notion",
-  desc: "notion笔记",
+const coinCommand: CommandType = {
+  func: coin",
+  name: "价格行情",
+  desc: "基于最新价格和用户行为数据产生的加密货币榜单",
   options: [],
   collapsible: true,
   action(options, terminal) {
@@ -21,4 +21,4 @@ const noCommand: CommandType = {
   },
 };
 
-export default noCommand;
+export default coinCommand;
