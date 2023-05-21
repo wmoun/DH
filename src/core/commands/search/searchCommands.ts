@@ -3,7 +3,7 @@ import baiduCommand from "./baiduCommand";
 import baidudevCommand from "./baidudevCommand";
 import bilibiliCommand from "./bilibili/bilibiliCommand";
 import bingCommand from "./bingCommand";
-import codenavCommand from "./codenavCommand";
+import twitterCommand from "./twitterCommand";
 import doubanCommand from "./doubanCommand";
 import douyinCommand from "./douyinCommand";
 import githubCommand from "./githubCommand";
@@ -24,7 +24,7 @@ const fromDict: Record<string, CommandType> = {
   baidudev: baidudevCommand,
   bilibili: bilibiliCommand,
   bing: bingCommand,
-  codenav: codenavCommand,
+  twitter: twitterCommand,
   douban: doubanCommand,
   douyin: douyinCommand,
   duckduckgo: duckduckgoCommand,

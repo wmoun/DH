@@ -4,9 +4,9 @@ import { CommandType } from "../../command";
  * 编程导航搜索命令
  * @author yupi
  */
-const codenavCommand: CommandType = {
-  func: "codenav",
-  name: "编程资源搜索",
+const twitterCommand: CommandType = {
+  func: "tw",
+  name: "推特搜索",
   alias: [],
   params: [
     {
@@ -27,7 +27,7 @@ const codenavCommand: CommandType = {
   action(options, terminal) {
     const { _, self } = options;
     const word = _.length > 0 ? _[0] : "";
-    const targetLink = `https://www.code-nav.cn/resources?q=${word}`;
+    const targetLink = `https://twitter.com/search?q=${word}`;
     if (self) {
       window.location.href = targetLink;
     } else {
@@ -36,4 +36,4 @@ const codenavCommand: CommandType = {
   },
 };
 
-export default codenavCommand;
+export default twitterCommand;
