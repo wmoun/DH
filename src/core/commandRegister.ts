@@ -22,7 +22,7 @@ import shortcutCommand from "./commands/terminal/shortcut/shortcutCommand";
 import ikunCommand from "./commands/relax/ikun/ikunCommand";
 import welcomeCommand from "./commands/terminal/config/welcomeCommand";
 import hotCommand from "./commands/hot/hotCommand";
-import coinCommand from "./commands/relax/ikuntest/ikuntestCommand";
+import ikuntestCommand from "./commands/relax/ikuntest/ikuntestCommand";
 import varbookCommand from "./commands/varbook/varbookCommand";
 
 /**
@@ -49,7 +49,7 @@ const commandList: CommandType[] = [
   ddosCommand,
   moyuCommand,
   ikunCommand,
-  coinCommand,
+  ikuntestCommand,
   welcomeCommand,
   backgroundCommand,
   resetCommand,

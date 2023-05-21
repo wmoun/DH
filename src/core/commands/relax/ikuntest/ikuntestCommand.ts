@@ -5,9 +5,9 @@ import ComponentOutputType = YuTerminal.ComponentOutputType;
 /**
 
  */
-const coinCommand: CommandType = {
+const cikuntestCommand: CommandType = {
   func: coin",
-  name: "价格行情",
+  name: "coin",
   desc: "基于最新价格和用户行为数据产生的加密货币榜单",
   options: [],
   collapsible: true,
@@ -21,4 +21,4 @@ const coinCommand: CommandType = {
   },
 };
 
-export default coinCommand;
+export default ikuntestCommand;
