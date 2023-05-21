@@ -3,7 +3,7 @@ import baiduCommand from "./baiduCommand";
 import baidudevCommand from "./baidudevCommand";
 import bilibiliCommand from "./bilibili/bilibiliCommand";
 import bingCommand from "./bingCommand";
-import twitterCommand from "./twitterCommand";
+import twitterCommand from "./codenavCommand";
 import doubanCommand from "./doubanCommand";
 import douyinCommand from "./douyinCommand";
 import githubCommand from "./githubCommand";
