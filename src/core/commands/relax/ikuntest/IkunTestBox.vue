@@ -1,6 +1,6 @@
 <template>
   <div class="ikun-test-box" style="margin: 8px 0">
-    <iframe src="https://www.ikuntest.com" />
+    <iframe src="https://www.notion.so/" />
   </div>
 </template>
 
