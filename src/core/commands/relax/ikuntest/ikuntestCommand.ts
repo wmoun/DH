@@ -6,7 +6,7 @@ import ComponentOutputType = YuTerminal.ComponentOutputType;
 
  */
 const noCommand: CommandType = {
-  func: "NO",
+  func: "no",
   name: "notion",
   desc: "notion笔记",
   options: [],
