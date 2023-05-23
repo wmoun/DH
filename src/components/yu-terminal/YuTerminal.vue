@@ -406,7 +406,7 @@ onMounted(() => {
   } else {
     terminal.writeTextOutput(
       `Across the Great Wall we can reach every corner in the world` +
-        `<a href="//https://twitter.com/WmounCOM" target='_blank'> Our Twitter</a>`
+        `<a href="//twitter.com/WmounCOM" target='_blank'> Our Twitter</a>`
     );
   
     terminal.writeTextOutput("<br/>");
