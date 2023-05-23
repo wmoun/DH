@@ -405,13 +405,10 @@ onMounted(() => {
     });
   } else {
     terminal.writeTextOutput(
-      `Welcome to YuIndex, coolest browser index for geeks!` +
-        `<a href="//github.com/liyupi/yuindex" target='_blank'> GitHub Open Source</a>`
+      `Across the Great Wall we can reach every corner in the world` +
+        `<a href="//https://twitter.com/WmounCOM" target='_blank'> Our Twitter</a>`
     );
-    terminal.writeTextOutput(
-      `Author <a href="//docs.qq.com/doc/DUFFRVWladXVjeUxW" target="_blank">coder_yupi</a>` +
-        `: please input 'help' to enjoy`
-    );
+  
     terminal.writeTextOutput("<br/>");
   }
 });
