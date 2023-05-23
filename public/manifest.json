@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "🐟 Index",
   "version": "0.0.0",
-  "description": "极客范儿的浏览器主页",
+  "description": "WMOUN - 我们",
   "author": "liyupi <592789970@qq.com>",
   "chrome_url_overrides" : {
     "newtab": "index.html"
