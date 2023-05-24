@@ -5,7 +5,7 @@ import { CommandType } from "../../command";
  * @author yupi
  */
 const googleCommand: CommandType = {
-  func: "google",
+  func: "go",
   name: "Google 搜索",
   alias: [],
   params: [
