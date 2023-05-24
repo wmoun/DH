@@ -5,9 +5,9 @@ import { CommandType } from "../../command";
  * @author yupi
  */
 const gengCommand: CommandType = {
-  func: "geng",
-  name: "梗搜索",
-  alias: ["xiaoji"],
+  func: "yt",
+  name: "YouTube搜索",
+  alias: ["YouTube"],
   params: [
     {
       key: "word",
@@ -27,7 +27,7 @@ const gengCommand: CommandType = {
   action(options, terminal) {
     const { _, self } = options;
     const word = _.length > 0 ? _[0] : "";
-    const targetLink = `https://jikipedia.com/search?phrase=${word}`;
+    const targetLink = `https://www.youtube.com/results?search_query=${word}`;
     if (self) {
       window.location.href = targetLink;
     } else {
