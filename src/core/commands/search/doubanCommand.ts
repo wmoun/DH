@@ -5,8 +5,8 @@ import { CommandType } from "../../command";
  * @author yupi
  */
 const doubanCommand: CommandType = {
-  func: "douban",
-  name: "豆瓣搜索",
+  func: "web",
+  name: "Web3 信息搜索",
   alias: [],
   params: [
     {
@@ -27,7 +27,7 @@ const doubanCommand: CommandType = {
   action(options, terminal) {
     const { _, self } = options;
     const word = _.length > 0 ? _[0] : "";
-    const targetLink = `https://www.douban.com/search?q=${word}`;
+    const targetLink = `https://foresightnews.pro/search/result?search=${word}`;
     if (self) {
       window.location.href = targetLink;
     } else {
