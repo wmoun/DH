@@ -5,8 +5,8 @@ import { CommandType } from "../../command";
  * @author yupi
  */
 const wangyiyunCommand: CommandType = {
-  func: "wangyiyun",
-  name: "网易云搜索",
+  func: "open",
+  name: "opensea NFT搜索",
   alias: [],
   params: [
     {
@@ -27,7 +27,7 @@ const wangyiyunCommand: CommandType = {
   action(options, terminal) {
     const { _, self } = options;
     const word = _.length > 0 ? _[0] : "";
-    const targetLink = `https://music.163.com/#/search/m/?s=${word}`;
+    const targetLink = `https://opensea.io/assets?search[query]=${word}`;
     if (self) {
       window.location.href = targetLink;
     } else {
