@@ -149,9 +149,9 @@
 
 
 
-#### wangyiyun 网易云搜索
+#### wopensea NFT搜索
 
-用法：wangyiyun <搜索内容> [-s 是否当前页面打开]
+用法：opensea NFT <搜索内容> [-s 是否当前页面打开]
 
 参数：
 

@@ -27,7 +27,7 @@ const wangyiyunCommand: CommandType = {
   action(options, terminal) {
     const { _, self } = options;
     const word = _.length > 0 ? _[0] : "";
-    const targetLink = `https://opensea.io/assets?search[query]=${word}`;
+    const targetLink = `https://pro.opensea.io/assets?search[query]=${word}`;
     if (self) {
       window.location.href = targetLink;
     } else {
